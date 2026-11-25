@@ -13,12 +13,6 @@ public class WinMenu : MonoBehaviour
         Next();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void MainMenu()
     {
         mainMenuButton.onClick.AddListener(() => {

@@ -11,12 +11,6 @@ public class OptionsButton : MonoBehaviour
         Options();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Options()
     {
         optionsButton.onClick.AddListener (( ) => {

@@ -5,11 +5,6 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private float interactRange = 3f;
     [SerializeField] private KeyCode interactKey = KeyCode.E;
     [SerializeField] private Camera playerCamera;
-
-    void Start()
-    {
-        
-    }
     
     void Update()
     {

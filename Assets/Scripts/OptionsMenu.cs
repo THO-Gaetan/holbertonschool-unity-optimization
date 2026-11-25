@@ -15,12 +15,6 @@ public class OptionsMenu : MonoBehaviour
         Apply();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void Back()
     {
         backButton.onClick.AddListener(() => {

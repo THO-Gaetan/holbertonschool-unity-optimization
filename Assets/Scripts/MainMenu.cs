@@ -14,10 +14,4 @@ public class MainMenu : MonoBehaviour
             button.onClick.AddListener(() => SceneManager.LoadScene(sceneName));
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-    
-    }
 }
